@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+}
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header ul li {
+  list-style: none;
+  margin: 10px;
+}
+.header ul li.link-item {
+  font-size: 13px;
+  font-weight: 500;
+}
+.header ul li .icon {
+  font-size: 22px;
+}
+.header ul li .profile {
+  border-radius: 50%;
+}
+.header ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
