@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Layouts from "../Layouts/Layouts";
 import styles from "../styles/Home.module.css";
 
@@ -9,7 +10,15 @@ export default function Home() {
         <title>Portfolio</title>
       </Head>
       <Layouts>
-        <h1>hello</h1>
+        <div className="head_title">
+          <Image
+            src={
+              "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            }
+            width={272}
+            height={92}
+          />
+        </div>
       </Layouts>
     </>
   );

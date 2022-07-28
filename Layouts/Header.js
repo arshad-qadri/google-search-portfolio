@@ -13,12 +13,18 @@ const Header = () => {
           <a href="#">Images</a>
         </li>
         <li>
-          <a href="#" className="icon">
+          <a
+            href="#"
+            className="icon d-flex justify-content-center align-items-center"
+          >
             <TbGridDots />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="#"
+            className="d-flex justify-content-center align-items-center"
+          >
             <Image
               className="profile"
               src={
