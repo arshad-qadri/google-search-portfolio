@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Layouts from "../Layouts/Layouts";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -9,17 +7,30 @@ export default function Home() {
       <Head>
         <title>Portfolio</title>
       </Head>
-      <Layouts>
-        <div className="head_title">
-          <Image
-            src={
-              "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            }
-            width={272}
-            height={92}
-          />
+
+      <div className="head_title">
+        <Image
+          src={
+            "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          }
+          width={272}
+          height={92}
+        />
+        {/* <h1>
+          {" "}
+          <span>A</span>
+          <span>r</span>
+          <span>s</span>
+          <span>h</span>
+          <span>a</span>
+          <span>d</span>{" "}
+        </h1> */}
+      </div>
+      <div className="input_section">
+        <div className="inp_field">
+          <input type="text" name="" id="" />
         </div>
-      </Layouts>
+        </div>
     </>
   );
 }
