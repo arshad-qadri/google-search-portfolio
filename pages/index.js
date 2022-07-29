@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { HiOutlineSearch } from "react-icons/hi";
 
 export default function Home() {
   return (
@@ -29,8 +30,11 @@ export default function Home() {
       <div className="input_section">
         <div className="inp_field">
           <input type="text" name="" id="" />
+          <div className="Search_icon">
+            <HiOutlineSearch />
+          </div>
         </div>
-        </div>
+      </div>
     </>
   );
 }

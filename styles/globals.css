@@ -68,6 +68,7 @@
   width: 582px;
   height: 44px;
   margin: 20px 0;
+  position: relative;
 }
 .inp_field input {
   width: 100%;
@@ -75,4 +76,12 @@
   border-radius: 25px;
   outline: none;
   border: 1px solid #dee1e5;
+  padding: 0px 40px;
+}
+
+.inp_field .Search_icon {
+  position: absolute;
+  left: 15px;
+  top: calc(50% - 14px);
+  color: #98a0a6;
 }
