@@ -33,7 +33,14 @@ export default function Home() {
           <div className="Search_icon">
             <HiOutlineSearch />
           </div>
+          <div className="google_mic">
+            <Image src={"/assets/img/Google_mic.png"} width={14} height={19} />
+          </div>
         </div>
+      </div>
+      <div className="search_btn">
+        <input type={"submit"} value="Google Search" />
+        <input type={"submit"} value="I'm Feeling Lucky" />
       </div>
     </>
   );

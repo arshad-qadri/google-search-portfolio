@@ -85,3 +85,18 @@
   top: calc(50% - 14px);
   color: #98a0a6;
 }
+
+.inp_field .google_mic {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 10px);
+}
+.search_btn {
+  width: 584px;
+  height: 58px;
+  margin: 18px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
