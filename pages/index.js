@@ -42,6 +42,40 @@ export default function Home() {
         <input type={"submit"} value="Google Search" />
         <input type={"submit"} value="I'm Feeling Lucky" />
       </div>
+      <div>
+        <div        >
+          <div className="languages">
+            <span> Google offered in:</span>
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCA4">
+              हिन्दी
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=bn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCA8">
+              বাংলা
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=te&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCBA">
+              తెలుగు
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=mr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCBE">
+              मराठी
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=ta&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCBI">
+              தமிழ்
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=gu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCBM">
+              ગુજરાતી
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=kn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCBQ">
+              ಕನ್ನಡ
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=ml&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCBU">
+              മലയാളം
+            </a>{" "}
+            <a href="https://www.google.com/setprefs?sig=0_tSHnQEhhAAfM-vtXnbDhToGu6Z8%3D&amp;hl=pa&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiirvj0laP5AhVJat4KHcGTCusQ2ZgBCBY">
+              ਪੰਜਾਬੀ
+            </a>{" "}
+          </div>
+        </div>
+      </div>
     </>
   );
 }
